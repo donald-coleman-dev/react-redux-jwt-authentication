@@ -1,0 +1,35 @@
+@import 'react-redux-toastr/src/styles/index';
+@import 'styles/include/_variables.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.app {
+  .page {
+    margin: $margin-lg-vertical auto;
+
+    .card {
+      padding: $padding-lg-vertical $padding-lg-horizontal;
+
+      .card-header {
+        text-align: center;
+      }
+
+      .card-content {
+        padding: 16px;
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .back-link {
+      text-decoration: none;
+      color: #3f51b5;
+    }
+  }
+}
